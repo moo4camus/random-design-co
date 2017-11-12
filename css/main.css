@@ -17,6 +17,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.page-header {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 1.25em;
+    padding: 1em;
+}
+
+.page-header i {
+    left: 90%;
+    position: absolute;
+    top: 35%;
+
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
