@@ -68,9 +68,6 @@ body {
     z-index: -10;
 }
 
-.call-to-action {
-
-}
 
 button {
     background: transparent;
@@ -94,7 +91,8 @@ button {
 .page-content {
     padding: 1em;
     line-height: 1.5em;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    position: relative;
 }
 
 h3, h4 {
@@ -106,19 +104,41 @@ h3, h4 {
     width: 50%;
     display: block;
     float: left;
-
+    text-align: center;
 }
 
 .project-right {
     width: 50%;
     display: block;
     float: right;
-
+    text-align: center;
 }
 
 .project-left img, .project-right img {
     width: 100%;
+    display: block;
+    position: relative;
+    border: 1px solid #fff;
+
 }
+
+.page-content a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.page-content a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 0em;
+    padding: 2em;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
