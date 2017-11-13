@@ -31,6 +31,7 @@ body {
 .page-header h1 {
     margin: 0;
     font-size: 1.25em;
+    font-style: bold;
     padding: 1em;
 }
 
@@ -38,7 +39,66 @@ body {
     left: 90%;
     position: absolute;
     top: 35%;
+}
 
+.hero-section {
+    position: relative;
+    background-color: hsla(311, 100%, 50%, 0.1);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-content h2 {
+    color: #fff;
+    font-size: 3em;
+    font-style: bold;
+    line-height: 1em;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: -10;
+}
+
+.call-to-action {
+
+}
+
+button {
+    background: transparent;
+    font-size: 1.25em;
+    font-style: none;
+    border: none;
+}
+
+.call-to-action a{
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: white;
+    padding: 0.75em;
+}
+
+.call-to-action a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.page-content {
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+.page-content h3 {
+    font-size: 1em;
+    font-style: bold;
 }
 
 /*
