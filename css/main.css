@@ -114,13 +114,15 @@ h3, h4 {
     text-align: center;
 }
 
-.project-left img, .project-right img {
+.project-image {
     width: 100%;
     display: block;
     position: relative;
+    z-index: -10;
     border: 1px solid #fff;
 
 }
+
 
 .page-content a:link {
     text-decoration: none;
